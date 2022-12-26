@@ -56,7 +56,7 @@
         <dependency>
             <groupId>com.thoughtworks.xstream</groupId>
             <artifactId>xstream</artifactId>
-            <version>1.4.19</version>
+            <version>1.4.20</version>
         </dependency>
 
         <dependency>
@@ -112,7 +112,7 @@
                 <db.driverClassName>org.hsqldb.jdbcDriver</db.driverClassName>
                 <db.url>jdbc:hsqldb:file:${bundle.location}/org_onebusaway_database</db.url>
                 <db.username>sa</db.username>
-                <db.password />
+                <db.password/>
 <!--
                 <db.hibernate.dialect>org.hibernate.dialect.HSQLDialect</db.hibernate.dialect>
 -->
@@ -126,7 +126,7 @@
                 <bundle.location>/mnt/obanyc/oba-bundle</bundle.location>
                 <siri.service.config>nyc-siri-service.xml</siri.service.config>
                 <bundle.mode.standalone>false</bundle.mode.standalone>
-                <depot.partition.key />
+                <depot.partition.key/>
                 <log4j.appender>ROLL</log4j.appender>
                 <particle.filter.debug>false</particle.filter.debug>
                 <timePredictions.status>DISABLED</timePredictions.status>
@@ -143,7 +143,7 @@
                 <db.driverClassName>org.hsqldb.jdbcDriver</db.driverClassName>
                 <db.url>jdbc:hsqldb:file:${bundle.location}/org_onebusaway_database</db.url>
                 <db.username>sa</db.username>
-                <db.password />
+                <db.password/>
 <!--
                 <db.hibernate.dialect>org.hibernate.dialect.HSQLDialect</db.hibernate.dialect>
 -->
@@ -160,7 +160,7 @@
                  <siri.service.config>empty.xml</siri.service.config>
                  <bundle.location>/tmp/oba-bundle</bundle.location>
                  <bundle.mode.standalone>true</bundle.mode.standalone>
-                 <depot.partition.key />
+                 <depot.partition.key/>
                  <log4j.appender>stdout</log4j.appender>
                  <particle.filter.debug>false</particle.filter.debug>
                  <timePredictions.status>DISABLED</timePredictions.status>
@@ -176,7 +176,7 @@
                 <db.driverClassName>org.hsqldb.jdbcDriver</db.driverClassName>
                 <db.url>jdbc:hsqldb:file:${bundle.location}/org_onebusaway_database</db.url>
                 <db.username>sa</db.username>
-                <db.password />
+                <db.password/>
 <!--
                 <db.hibernate.dialect>org.hibernate.dialect.HSQLDialect</db.hibernate.dialect>
 -->
@@ -195,7 +195,7 @@
                  <siri.service.config>empty.xml</siri.service.config>
                  <bundle.location>/tmp/oba-bundle</bundle.location>
                  <bundle.mode.standalone>false</bundle.mode.standalone>
-                 <depot.partition.key />
+                 <depot.partition.key/>
                  <log4j.appender>stdout</log4j.appender>
                  <particle.filter.debug>false</particle.filter.debug>
                  <timePredictions.status>DISABLED</timePredictions.status>
@@ -211,14 +211,14 @@
                 <db.driverClassName>org.hsqldb.jdbcDriver</db.driverClassName>
                 <db.url>jdbc:hsqldb:file:${bundle.location}/org_onebusaway_database</db.url>
                 <db.username>sa</db.username>
-                <db.password />
+                <db.password/>
                 <db.hibernate.dialect>org.hibernate.dialect.HSQLDialect</db.hibernate.dialect>
                 <ie.listener>DummyPartitionedInputQueueListenerTask</ie.listener>
                 <!-- <ie.listener>PartitionedInputQueueListenerTask</ie.listener> -->
                 <ie.output.queue>DummyOutputQueueSenderServiceImpl</ie.output.queue>
-                <tdm.host />
-                <tdm.port />
-                <tdm.url />
+                <tdm.host/>
+                <tdm.port/>
+                <tdm.url/>
 <!-- 
                 <tdm.host>tdm.dev.obanyc.com</tdm.host> 
                 <tdm.port>80</tdm.port>
@@ -232,7 +232,7 @@
                  <bundle.location>/var/lib/obanyc/oba-vtw-bundle</bundle.location>
                  <bundle.mode.standalone>true</bundle.mode.standalone>
 <!--                  <bundle.mode.standalone>false</bundle.mode.standalone> -->
-                 <depot.partition.key />
+                 <depot.partition.key/>
                  <log4j.appender>stdout</log4j.appender>
 <!--                  <particle.filter.debug>false</particle.filter.debug> -->
                  <particle.filter.debug>true</particle.filter.debug>
@@ -249,7 +249,7 @@
                 <db.driverClassName>org.hsqldb.jdbcDriver</db.driverClassName>
                 <db.url>jdbc:hsqldb:file:${bundle.location}/org_onebusaway_database</db.url>
                 <db.username>sa</db.username>
-                <db.password />
+                <db.password/>
 <!--
                 <db.hibernate.dialect>org.hibernate.dialect.HSQLDialect</db.hibernate.dialect>
 -->
@@ -296,7 +296,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <depot.partition.key />
+                <depot.partition.key/>
             </properties>            
         </profile>
     </profiles>
