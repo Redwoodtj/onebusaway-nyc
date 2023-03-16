@@ -13,7 +13,7 @@
 
     <properties>
         <asm-version>8.0.1</asm-version>
-        <aws.version>1.3.9</aws.version>
+        <aws.version>1.8.12</aws.version>
         <commons-beanutils.version>1.9.2</commons-beanutils.version>
         <geotools.version>23.0</geotools.version>
         <gitDescribe>99999</gitDescribe>
@@ -360,7 +360,7 @@
                                 <requireJavaVersion>
                                     <version>1.8</version>
                                 </requireJavaVersion>
-                                <requirePluginVersions />
+                                <requirePluginVersions/>
                                 <requireReleaseDeps>
                                     <onlyWhenRelease>true</onlyWhenRelease>
                                 </requireReleaseDeps>
