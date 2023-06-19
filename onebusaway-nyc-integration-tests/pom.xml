@@ -104,7 +104,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>29.0-jre</version>
+            <version>32.0.0-jre</version>
         </dependency>
         <!-- this hasn't worked for quite some time -->
         <!--  but is still required for compile -->
@@ -212,7 +212,7 @@
                             <arguments>
                                 <argument>-Xmx1500m</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -236,7 +236,7 @@
                                 <argument>-Xdebug</argument>
                                 <argument>-Xmx1500m</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -259,7 +259,7 @@
                             <arguments>
                                 <argument>-Xmx4g</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -282,7 +282,7 @@
                             <arguments>
                                 <argument>-Xmx2g</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -306,7 +306,7 @@
                             <arguments>
                                 <argument>-Xmx2g</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -329,7 +329,7 @@
                             <arguments>
                                 <argument>-Xmx2g</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -352,7 +352,7 @@
                             <arguments>
                                 <argument>-Xmx2g</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -377,7 +377,7 @@
                             <arguments>
                                 <argument>-Xmx1500m</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -400,7 +400,7 @@
                             <arguments>
                                 <argument>-Xmx1500m</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -423,7 +423,7 @@
                             <arguments>
                                 <argument>-Xmx2G</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -446,7 +446,7 @@
                             <arguments>
                                 <argument>-Xmx2G</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -469,7 +469,7 @@
                             <arguments>
                                 <argument>-Xmx1500m</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -492,7 +492,7 @@
                             <arguments>
                                 <argument>-Xmx1500m</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -515,7 +515,7 @@
                             <arguments>
                                 <argument>-Xmx1500m</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -538,7 +538,7 @@
                             <arguments>
                                 <argument>-Xmx1500m</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
@@ -562,7 +562,7 @@
                             <arguments>
                                 <argument>-Xmx1500m</argument>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>-Dlog4j.configuration=log4j-stdout.xml</argument>
                                 <argument>-Donebusaway_prefix=${basedir}</argument>
                                 <argument>org.onebusaway.transit_data_federation.bundle.FederatedTransitDataBundleCreatorMain</argument>
