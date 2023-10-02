@@ -92,7 +92,7 @@
         <dependency>
             <groupId>com.notnoop.apns</groupId>
             <artifactId>apns</artifactId>
-            <version>0.1.6</version>
+            <version>0.2.0</version>
         </dependency>
 
         <!-- Logging Dependencies -->
@@ -133,7 +133,7 @@
                 <vtms.path>http://localhost:8080/onebusaway-nyc-transit-data-federation-webapp</vtms.path>
                 <config.path>http://localhost:8080/onebusaway-nyc-transit-data-federation-webapp</config.path>
                 <service.wikihost>xwiki.staging.obanyc.com</service.wikihost>
-                <dummy.permissions />
+                <dummy.permissions/>
                 <tdm.host>tdm</tdm.host>
                 <log4j.appender>ROLL</log4j.appender>
                 <api.cache.host>sessions-memcache</api.cache.host>
@@ -147,7 +147,7 @@
                 <vtms.path>http://app.dev.obanyc.com:8080/onebusaway-nyc-transit-data-federation-webapp</vtms.path>
                 <config.path>http://app.dev.obanyc.com:8080/onebusaway-nyc-transit-data-federation-webapp</config.path>                
                 <service.wikihost>xwiki.staging.obanyc.com</service.wikihost>
-                <dummy.permissions />
+                <dummy.permissions/>
                 <tdm.host>tdm.dev.obanyc.com</tdm.host>
                 <log4j.appender>stdout</log4j.appender>
                 <api.cache.host>sessions-memcache.dev.obanyc.com</api.cache.host>
@@ -161,7 +161,7 @@
                 <vtms.path>http://localhost:8080/onebusaway-nyc-transit-data-federation-webapp</vtms.path>
                 <config.path>http://localhost:8080/onebusaway-nyc-transit-data-federation-webapp</config.path>
                 <service.wikihost>xwiki.staging.obanyc.com</service.wikihost>
-                <dummy.permissions />
+                <dummy.permissions/>
                 <log4j.appender>stdout</log4j.appender>
                 <api.cache.host>sessions-memcache.dev.obanyc.com</api.cache.host>
                 <api.cache.disabled>true</api.cache.disabled>
