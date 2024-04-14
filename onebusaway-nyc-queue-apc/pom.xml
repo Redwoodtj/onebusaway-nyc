@@ -88,7 +88,7 @@
     <dependency>
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-java-sdk</artifactId>
-      <version>1.6.12</version>
+      <version>1.8.12</version>
       <exclusions>
         <exclusion>
           <groupId>org.codehaus.jackson</groupId>
@@ -169,7 +169,7 @@
                 </goals>
                 <configuration>
                   <mainClass>org.onebusaway.nyc.queue.apc.ApcMonitor</mainClass>
-                  <arguments />
+                  <arguments/>
                 </configuration>
               </execution>
             </executions>
