@@ -101,7 +101,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-joda</artifactId>
-            <version>2.9.0</version>
+            <version>2.15.0</version>
         </dependency>
 
         <dependency>
@@ -243,7 +243,7 @@
                 <tdm.rtPipoFilename>RtSchPullinPulloutList.json</tdm.rtPipoFilename>
                 <tdm.prettyPrintOutput>true</tdm.prettyPrintOutput>
                 <tdm.config.configXmlFile>d:\shared\testconfigfile.xml</tdm.config.configXmlFile>
-                <tdm.depotIdTranslationConfigFile />
+                <tdm.depotIdTranslationConfigFile/>
                 <tdm.bundlePath>D:\tmp\bundles</tdm.bundlePath>
                 <tdm.vehiclepipoUploadDir>${tdm.dataPath}\vehicle_pipo</tdm.vehiclepipoUploadDir>
             </properties>
@@ -261,7 +261,7 @@
                 <tdm.host>localhost</tdm.host>
                 <tdm.port>80</tdm.port>
                 <tdm.url>/api/</tdm.url>
-                <webapp.api.url />
+                <webapp.api.url/>
                 <tdm.dataPath>/mnt/data/tdm_input/upload/mta</tdm.dataPath>
                 <tdm.home>/var/lib/obanyc/tdm</tdm.home>
                 <tdm.crewAssignsUploadDir>${tdm.dataPath}/crew_assign</tdm.crewAssignsUploadDir> <!-- See UtsCrewUploadsFilePicker for usage of this. -->
@@ -289,7 +289,7 @@
                 <tdm.host>localhost</tdm.host>
                 <tdm.port>8080</tdm.port>
                 <tdm.url>/onebusaway-nyc-tdm-webapp/api/</tdm.url>
-                <webapp.api.url />
+                <webapp.api.url/>
                 <tdm.dataPath>/var/lib/obanyc/tdm_input/upload/mta</tdm.dataPath>
                 <tdm.home>/var/lib/obanyc/tdm</tdm.home>
                 <tdm.crewAssignsUploadDir>${tdm.dataPath}/crew_assign</tdm.crewAssignsUploadDir> <!-- See UtsCrewUploadsFilePicker for usage of this. -->
@@ -317,7 +317,7 @@
                 <tdm.host>localhost</tdm.host>
                 <tdm.port>8080</tdm.port>
                 <tdm.url>/onebusaway-nyc-tdm-webapp/api/</tdm.url>
-                <webapp.api.url />
+                <webapp.api.url/>
                 <tdm.dataPath>/var/lib/obanyc/tdm_input/upload/mta</tdm.dataPath>
                 <tdm.home>/var/lib/obanyc/tdm</tdm.home>
                 <tdm.crewAssignsUploadDir>${tdm.dataPath}/crew_assign</tdm.crewAssignsUploadDir> <!-- See UtsCrewUploadsFilePicker for usage of this. -->
@@ -345,7 +345,7 @@
                 <tdm.host>tdm.dev.obanyc.com</tdm.host>
                 <tdm.port>80</tdm.port>
                 <tdm.url>/api/</tdm.url>
-                <webapp.api.url />
+                <webapp.api.url/>
                 <log4j.appender>stdout</log4j.appender>
             </properties>
         </profile>
@@ -359,7 +359,7 @@
                 <tdm.host>tdm.dev.obanyc.com</tdm.host>
                 <tdm.port>8080</tdm.port>
                 <tdm.url>/api/</tdm.url>
-                <webapp.api.url />
+                <webapp.api.url/>
                 <log4j.appender>stdout</log4j.appender>
                 
                 <tdm.dataPath>/var/lib/obanyc/tdm-datapath</tdm.dataPath>
