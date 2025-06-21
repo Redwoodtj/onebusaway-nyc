@@ -20,12 +20,12 @@
         <gtfs-api-version>1.2.16</gtfs-api-version><!-- please keep this in sync with app-mods gtfs-api-version -->
         <hessian.version>4.0.38</hessian.version>
         <hsqldb.version>2.6.0</hsqldb.version>
-        <jackson.version>2.12.0</jackson.version>
+        <jackson.version>2.13.0</jackson.version>
         <jakarta.xml.version>2.3.3</jakarta.xml.version>
         <jaxb-impl.version>2.3.3</jaxb-impl.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
         <javax.annotation.version>1.3.1</javax.annotation.version>
-        <jersey-version>2.31</jersey-version>
+        <jersey-version>2.47</jersey-version>
         <jetty.version>6.1.26</jetty.version>
         <jts-core.version>1.16.1</jts-core.version>
         <log4j.version>2.17.1</log4j.version>
@@ -360,7 +360,7 @@
                                 <requireJavaVersion>
                                     <version>1.8</version>
                                 </requireJavaVersion>
-                                <requirePluginVersions />
+                                <requirePluginVersions/>
                                 <requireReleaseDeps>
                                     <onlyWhenRelease>true</onlyWhenRelease>
                                 </requireReleaseDeps>
